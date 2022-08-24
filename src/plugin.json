@@ -1,0 +1,39 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "datasource",
+  "name": "Exprom Disruptive Datasource",
+  "id": "hathoute-disruptive-datasource",
+  "metrics": true,
+  "alerting": true,
+  "backend": true,
+  "executable": "gpx_disruptive-datasource",
+  "info": {
+    "description": "",
+    "author": {
+      "name": "Hathoute",
+      "url": "hathoute.com"
+    },
+    "keywords": [],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/grafana/grafana-starter-datasource-backend"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/grafana/grafana-starter-datasource-backend/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=7.0.0",
+    "plugins": []
+  }
+}
